@@ -62,7 +62,7 @@ export default function Home() {
 				</Flex>
 				<Collapse in={isOpen} animateOpacity>
 					<Stack
-						spacing={['4', '4', '10', '20']}
+						spacing={['5', '5', '12', '20']}
 						py="5"
 						px="10"
 						direction={['column', 'column', 'row']}
