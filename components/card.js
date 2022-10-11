@@ -5,7 +5,7 @@ import { Image, Button } from '@chakra-ui/react';
 export const Card = () => {
 	return (
 		<Stack
-			border="2px"
+			border="3px"
 			borderColor="#bdbdbd77"
 			borderRadius="md"
 			direction="row"
@@ -44,7 +44,7 @@ export const Card = () => {
 								color={i < 4 ? 'teal.500' : 'gray.300'}
 							/>
 						))}
-					<Box as="span" ml="2" color="gray.600" fontSize="sm">
+					<Box as="span" ml="2" color="gray.500" fontSize="sm">
 						36 reviews
 					</Box>
 				</Box>
